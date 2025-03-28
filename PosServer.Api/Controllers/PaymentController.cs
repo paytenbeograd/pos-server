@@ -3,6 +3,7 @@ using PosServer.Domain.Entities;
 using PosServer.Implementation;
 using PosServer.Application.UseCases.Dto;
 using PosServer.Application.UseCases.Queries;
+using Serilog;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -25,15 +26,13 @@ namespace PosServer.Controllers
             [FromBody] PaymentRequestDto request,
             [FromServices] IGetPaymentResponseQuery query)
         {
+            Log.Information("Usao u pay endpoint");
+
             var response = _useCaseHandler.HandleQueryAsync(query, request);
 
-            return Ok(response);
-        }
+            Log.Information("Izlazim iz pay endpoint");
 
-        [HttpPost("test")]
-        public async Task<IActionResult> TestAsync()
-        {
-            return Ok("TEST");
+            return Ok(response);
         }
 
         [HttpGet("getSettlementInfo")]
@@ -42,7 +41,11 @@ namespace PosServer.Controllers
             [FromServices]IGetSettlementQuery query
             )
         {
+            Log.Information("Usao u getSettlementInfo endpoint");
+
             var response = await _useCaseHandler.HandleQueryAsync(query, request);
+
+            Log.Information("Izlazim iz getSettlementInfo endpoint");
 
             return Ok(response);
         }
