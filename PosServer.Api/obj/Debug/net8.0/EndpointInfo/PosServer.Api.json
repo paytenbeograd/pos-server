@@ -1,0 +1,266 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "PosServer.Api",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Payment/pay": {
+      "post": {
+        "tags": [
+          "Payment"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PaymentRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PaymentRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PaymentRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Payment/test": {
+      "post": {
+        "tags": [
+          "Payment"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Payment/getSettlementInfo": {
+      "get": {
+        "tags": [
+          "Payment"
+        ],
+        "parameters": [
+          {
+            "name": "DateFrom",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "DateTo",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Terminal": {
+      "get": {
+        "tags": [
+          "Terminal"
+        ],
+        "parameters": [
+          {
+            "name": "LocationCode",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "HarwareId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Username",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Password",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "PaymentRequestDto": {
+        "type": "object",
+        "properties": {
+          "uniqueTrans": {
+            "type": "string",
+            "nullable": true
+          },
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "hardwareId": {
+            "type": "string",
+            "nullable": true
+          },
+          "tid": {
+            "type": "string",
+            "nullable": true
+          },
+          "sessionId": {
+            "type": "string",
+            "nullable": true
+          },
+          "terminalID": {
+            "type": "string",
+            "nullable": true
+          },
+          "sourceId": {
+            "type": "string",
+            "nullable": true
+          },
+          "seqNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "transactionType": {
+            "type": "string",
+            "nullable": true
+          },
+          "printerFlag": {
+            "type": "string",
+            "nullable": true
+          },
+          "cashierID": {
+            "type": "string",
+            "nullable": true
+          },
+          "transactionNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "transactionAmount": {
+            "type": "string",
+            "nullable": true
+          },
+          "amountExponent": {
+            "type": "string",
+            "nullable": true
+          },
+          "amountCurrency": {
+            "type": "string",
+            "nullable": true
+          },
+          "authorisationCodeForOfflineSale": {
+            "type": "string",
+            "nullable": true
+          },
+          "inputLabel": {
+            "type": "string",
+            "nullable": true
+          },
+          "insurancePolicyNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "installmentNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "minimumInputLength": {
+            "type": "string",
+            "nullable": true
+          },
+          "maximumInputLength": {
+            "type": "string",
+            "nullable": true
+          },
+          "maskInputData": {
+            "type": "string",
+            "nullable": true
+          },
+          "languageID": {
+            "type": "string",
+            "nullable": true
+          },
+          "printData": {
+            "type": "string",
+            "nullable": true
+          },
+          "cashierIDExtended": {
+            "type": "string",
+            "nullable": true
+          },
+          "cashAmount": {
+            "type": "string",
+            "nullable": true
+          },
+          "payservices": {
+            "type": "string",
+            "nullable": true
+          },
+          "tacData": {
+            "type": "string",
+            "nullable": true
+          },
+          "ipReferenceNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "qRcodeData": {
+            "type": "string",
+            "nullable": true
+          },
+          "specificProcessingFlag": {
+            "type": "string",
+            "nullable": true
+          },
+          "radcomData": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+C:\projects\PosServer\PosServer.Domain\bin\Debug\net8.0\PosServer.Domain.deps.json
+C:\projects\PosServer\PosServer.Domain\bin\Debug\net8.0\PosServer.Domain.dll
+C:\projects\PosServer\PosServer.Domain\bin\Debug\net8.0\PosServer.Domain.pdb
+C:\projects\PosServer\PosServer.Domain\obj\Debug\net8.0\PosServer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\PosServer\PosServer.Domain\obj\Debug\net8.0\PosServer.Domain.AssemblyInfoInputs.cache
+C:\projects\PosServer\PosServer.Domain\obj\Debug\net8.0\PosServer.Domain.AssemblyInfo.cs
+C:\projects\PosServer\PosServer.Domain\obj\Debug\net8.0\PosServer.Domain.csproj.CoreCompileInputs.cache
+C:\projects\PosServer\PosServer.Domain\obj\Debug\net8.0\PosServer.Domain.dll
+C:\projects\PosServer\PosServer.Domain\obj\Debug\net8.0\refint\PosServer.Domain.dll
+C:\projects\PosServer\PosServer.Domain\obj\Debug\net8.0\PosServer.Domain.pdb
+C:\projects\PosServer\PosServer.Domain\obj\Debug\net8.0\ref\PosServer.Domain.dll

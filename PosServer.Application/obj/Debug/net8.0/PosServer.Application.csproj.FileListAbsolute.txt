@@ -1,0 +1,17 @@
+C:\projects\PosServer\PosServer.Application\bin\Debug\net8.0\PosServer.Application.deps.json
+C:\projects\PosServer\PosServer.Application\bin\Debug\net8.0\PosServer.Application.dll
+C:\projects\PosServer\PosServer.Application\bin\Debug\net8.0\PosServer.Application.pdb
+C:\projects\PosServer\PosServer.Application\bin\Debug\net8.0\PosServer.DataAccess.dll
+C:\projects\PosServer\PosServer.Application\bin\Debug\net8.0\PosServer.Domain.dll
+C:\projects\PosServer\PosServer.Application\bin\Debug\net8.0\PosServer.DataAccess.pdb
+C:\projects\PosServer\PosServer.Application\bin\Debug\net8.0\PosServer.Domain.pdb
+C:\projects\PosServer\PosServer.Application\obj\Debug\net8.0\PosServer.Application.csproj.AssemblyReference.cache
+C:\projects\PosServer\PosServer.Application\obj\Debug\net8.0\PosServer.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\PosServer\PosServer.Application\obj\Debug\net8.0\PosServer.Application.AssemblyInfoInputs.cache
+C:\projects\PosServer\PosServer.Application\obj\Debug\net8.0\PosServer.Application.AssemblyInfo.cs
+C:\projects\PosServer\PosServer.Application\obj\Debug\net8.0\PosServer.Application.csproj.CoreCompileInputs.cache
+C:\projects\PosServer\PosServer.Application\obj\Debug\net8.0\PosServe.3B4C0C6E.Up2Date
+C:\projects\PosServer\PosServer.Application\obj\Debug\net8.0\PosServer.Application.dll
+C:\projects\PosServer\PosServer.Application\obj\Debug\net8.0\refint\PosServer.Application.dll
+C:\projects\PosServer\PosServer.Application\obj\Debug\net8.0\PosServer.Application.pdb
+C:\projects\PosServer\PosServer.Application\obj\Debug\net8.0\ref\PosServer.Application.dll
