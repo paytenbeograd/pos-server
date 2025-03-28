@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\projects\\PosServer\\PosServer.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F0B68CE-4B63-486C-B189-25CFB43524C3}|PosServer.Api.csproj|c:\\projects\\posserver\\posserver.api\\posserver.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{8F0B68CE-4B63-486C-B189-25CFB43524C3}|PosServer.Api.csproj|solutionrelative:posserver.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{8F0B68CE-4B63-486C-B189-25CFB43524C3}|PosServer.Api.csproj|c:\\projects\\posserver\\posserver.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F0B68CE-4B63-486C-B189-25CFB43524C3}|PosServer.Api.csproj|solutionrelative:controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F0B68CE-4B63-486C-B189-25CFB43524C3}|PosServer.Api.csproj|c:\\projects\\posserver\\posserver.api\\controllers\\terminal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F0B68CE-4B63-486C-B189-25CFB43524C3}|PosServer.Api.csproj|solutionrelative:controllers\\terminal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F0B68CE-4B63-486C-B189-25CFB43524C3}|PosServer.Api.csproj|c:\\projects\\posserver\\posserver.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F0B68CE-4B63-486C-B189-25CFB43524C3}|PosServer.Api.csproj|solutionrelative:controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14ADBCED-0DC7-4401-8BC8-99D3241C648C}|..\\PosServer.Implementation\\PosServer.Implementation.csproj|c:\\projects\\posserver\\posserver.implementation\\usecases\\commands\\efcreatepaymentrequestcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -92,7 +88,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 224,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -108,46 +104,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PosServer.Api.http",
-              "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Api\\PosServer.Api.http",
-              "RelativeDocumentMoniker": "PosServer.Api.http",
-              "ToolTip": "C:\\projects\\PosServer\\PosServer.Api\\PosServer.Api.http",
-              "RelativeToolTip": "PosServer.Api.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-03-28T12:45:33.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Terminal.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Api\\Controllers\\Terminal.cs",
               "RelativeDocumentMoniker": "Controllers\\Terminal.cs",
               "ToolTip": "C:\\projects\\PosServer\\PosServer.Api\\Controllers\\Terminal.cs",
               "RelativeToolTip": "Controllers\\Terminal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:44:13.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:44:13.251Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Api\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
               "ToolTip": "C:\\projects\\PosServer\\PosServer.Api\\Controllers\\PaymentController.cs",
               "RelativeToolTip": "Controllers\\PaymentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAYwCIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T12:44:05.784Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "EfCreatePaymentRequestCommand.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Implementation\\UseCases\\Commands\\EfCreatePaymentRequestCommand.cs",
               "RelativeDocumentMoniker": "..\\PosServer.Implementation\\UseCases\\Commands\\EfCreatePaymentRequestCommand.cs",
@@ -155,12 +137,11 @@
               "RelativeToolTip": "..\\PosServer.Implementation\\UseCases\\Commands\\EfCreatePaymentRequestCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:43:50.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:43:50.433Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "EfGetPaymentResponseQuery.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Implementation\\UseCases\\Queries\\EfGetPaymentResponseQuery.cs",
               "RelativeDocumentMoniker": "..\\PosServer.Implementation\\UseCases\\Queries\\EfGetPaymentResponseQuery.cs",
@@ -168,12 +149,11 @@
               "RelativeToolTip": "..\\PosServer.Implementation\\UseCases\\Queries\\EfGetPaymentResponseQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:43:27.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:43:27.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "EfGetSettementQuery.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Implementation\\UseCases\\Queries\\EfGetSettementQuery.cs",
               "RelativeDocumentMoniker": "..\\PosServer.Implementation\\UseCases\\Queries\\EfGetSettementQuery.cs",
@@ -181,12 +161,11 @@
               "RelativeToolTip": "..\\PosServer.Implementation\\UseCases\\Queries\\EfGetSettementQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:43:19.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:43:19.488Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "EfGetTerminalsQuery.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Implementation\\UseCases\\Queries\\EfGetTerminalsQuery.cs",
               "RelativeDocumentMoniker": "..\\PosServer.Implementation\\UseCases\\Queries\\EfGetTerminalsQuery.cs",
@@ -194,12 +173,11 @@
               "RelativeToolTip": "..\\PosServer.Implementation\\UseCases\\Queries\\EfGetTerminalsQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:43:06.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:43:06.653Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -207,12 +185,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:41:54.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:41:54.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "UseCaseHandler.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Implementation\\UseCaseHandler.cs",
               "RelativeDocumentMoniker": "..\\PosServer.Implementation\\UseCaseHandler.cs",
@@ -220,12 +197,11 @@
               "RelativeToolTip": "..\\PosServer.Implementation\\UseCaseHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:31:23.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:31:23.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "ICreatePaymentReqeustCommand.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Application\\UseCases\\Commands\\ICreatePaymentReqeustCommand.cs",
               "RelativeDocumentMoniker": "..\\PosServer.Application\\UseCases\\Commands\\ICreatePaymentReqeustCommand.cs",
@@ -233,12 +209,11 @@
               "RelativeToolTip": "..\\PosServer.Application\\UseCases\\Commands\\ICreatePaymentReqeustCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:30:08.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:30:08.948Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "IGetPaymentResponseQuery.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Application\\UseCases\\Queries\\IGetPaymentResponseQuery.cs",
               "RelativeDocumentMoniker": "..\\PosServer.Application\\UseCases\\Queries\\IGetPaymentResponseQuery.cs",
@@ -246,12 +221,11 @@
               "RelativeToolTip": "..\\PosServer.Application\\UseCases\\Queries\\IGetPaymentResponseQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:29:50.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:29:50.865Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "IGetSettlementQuery.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Application\\UseCases\\Queries\\IGetSettlementQuery.cs",
               "RelativeDocumentMoniker": "..\\PosServer.Application\\UseCases\\Queries\\IGetSettlementQuery.cs",
@@ -259,12 +233,11 @@
               "RelativeToolTip": "..\\PosServer.Application\\UseCases\\Queries\\IGetSettlementQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:29:48.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:29:48.046Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "IGetTerminalsQuery.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Application\\UseCases\\Queries\\IGetTerminalsQuery.cs",
               "RelativeDocumentMoniker": "..\\PosServer.Application\\UseCases\\Queries\\IGetTerminalsQuery.cs",
@@ -272,12 +245,11 @@
               "RelativeToolTip": "..\\PosServer.Application\\UseCases\\Queries\\IGetTerminalsQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:29:44.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:29:44.385Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "EntityNotFoundException.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Application\\Exceptions\\EntityNotFoundException.cs",
               "RelativeDocumentMoniker": "..\\PosServer.Application\\Exceptions\\EntityNotFoundException.cs",
@@ -285,12 +257,11 @@
               "RelativeToolTip": "..\\PosServer.Application\\Exceptions\\EntityNotFoundException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:30:17.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:30:17.737Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "ConflictException.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Application\\Exceptions\\ConflictException.cs",
               "RelativeDocumentMoniker": "..\\PosServer.Application\\Exceptions\\ConflictException.cs",
@@ -298,12 +269,11 @@
               "RelativeToolTip": "..\\PosServer.Application\\Exceptions\\ConflictException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:30:13.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:30:13.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "PaymentRequestDto.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Application\\UseCases\\Dto\\PaymentRequestDto.cs",
               "RelativeDocumentMoniker": "..\\PosServer.Application\\UseCases\\Dto\\PaymentRequestDto.cs",
@@ -311,12 +281,11 @@
               "RelativeToolTip": "..\\PosServer.Application\\UseCases\\Dto\\PaymentRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:30:04.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:30:04.316Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "PaymentResponseDto.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Application\\UseCases\\Dto\\PaymentResponseDto.cs",
               "RelativeDocumentMoniker": "..\\PosServer.Application\\UseCases\\Dto\\PaymentResponseDto.cs",
@@ -324,12 +293,11 @@
               "RelativeToolTip": "..\\PosServer.Application\\UseCases\\Dto\\PaymentResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:30:01.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:30:01.747Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "SettlementDto.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Application\\UseCases\\Dto\\SettlementDto.cs",
               "RelativeDocumentMoniker": "..\\PosServer.Application\\UseCases\\Dto\\SettlementDto.cs",
@@ -337,12 +305,11 @@
               "RelativeToolTip": "..\\PosServer.Application\\UseCases\\Dto\\SettlementDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:29:58.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:29:58.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "TerminalDto.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Application\\UseCases\\Dto\\TerminalDto.cs",
               "RelativeDocumentMoniker": "..\\PosServer.Application\\UseCases\\Dto\\TerminalDto.cs",
@@ -350,12 +317,11 @@
               "RelativeToolTip": "..\\PosServer.Application\\UseCases\\Dto\\TerminalDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:29:54.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:29:54.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "ICommand.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Application\\ICommand.cs",
               "RelativeDocumentMoniker": "..\\PosServer.Application\\ICommand.cs",
@@ -363,12 +329,11 @@
               "RelativeToolTip": "..\\PosServer.Application\\ICommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:29:39.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:29:39.005Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "IQuery.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Application\\IQuery.cs",
               "RelativeDocumentMoniker": "..\\PosServer.Application\\IQuery.cs",
@@ -376,12 +341,11 @@
               "RelativeToolTip": "..\\PosServer.Application\\IQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:29:32.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:29:32.952Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "IUseCase.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Application\\IUseCase.cs",
               "RelativeDocumentMoniker": "..\\PosServer.Application\\IUseCase.cs",
@@ -389,12 +353,11 @@
               "RelativeToolTip": "..\\PosServer.Application\\IUseCase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:29:26.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:29:26.482Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "AccessLevelConfiguration.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.DataAccess\\Configurations\\AccessLevelConfiguration.cs",
               "RelativeDocumentMoniker": "..\\PosServer.DataAccess\\Configurations\\AccessLevelConfiguration.cs",
@@ -402,12 +365,11 @@
               "RelativeToolTip": "..\\PosServer.DataAccess\\Configurations\\AccessLevelConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:28:58.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:28:58.891Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "PosServerDbContext.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.DataAccess\\PosServerDbContext.cs",
               "RelativeDocumentMoniker": "..\\PosServer.DataAccess\\PosServerDbContext.cs",
@@ -415,12 +377,11 @@
               "RelativeToolTip": "..\\PosServer.DataAccess\\PosServerDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:27:28.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:27:28.401Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "IApplicationUser.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Domain\\IApplicationUser.cs",
               "RelativeDocumentMoniker": "..\\PosServer.Domain\\IApplicationUser.cs",
@@ -428,12 +389,11 @@
               "RelativeToolTip": "..\\PosServer.Domain\\IApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:27:07.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:27:07.04Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "Entity.cs",
               "DocumentMoniker": "C:\\projects\\PosServer\\PosServer.Domain\\Entity.cs",
               "RelativeDocumentMoniker": "..\\PosServer.Domain\\Entity.cs",
@@ -441,8 +401,7 @@
               "RelativeToolTip": "..\\PosServer.Domain\\Entity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:27:04.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T12:27:04.998Z"
             }
           ]
         }
