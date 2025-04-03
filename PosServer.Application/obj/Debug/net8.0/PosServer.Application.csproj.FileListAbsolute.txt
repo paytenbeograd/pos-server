@@ -15,3 +15,4 @@ C:\projects\PosServer\PosServer.Application\obj\Debug\net8.0\PosServer.Applicati
 C:\projects\PosServer\PosServer.Application\obj\Debug\net8.0\refint\PosServer.Application.dll
 C:\projects\PosServer\PosServer.Application\obj\Debug\net8.0\PosServer.Application.pdb
 C:\projects\PosServer\PosServer.Application\obj\Debug\net8.0\ref\PosServer.Application.dll
+C:\projects\PosServer\PosServer.Application\obj\Debug\net8.0\PosServer.Application.sourcelink.json

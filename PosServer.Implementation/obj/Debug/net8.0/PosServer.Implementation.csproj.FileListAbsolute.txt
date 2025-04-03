@@ -17,3 +17,5 @@ C:\projects\PosServer\PosServer.Implementation\obj\Debug\net8.0\PosServer.Implem
 C:\projects\PosServer\PosServer.Implementation\obj\Debug\net8.0\refint\PosServer.Implementation.dll
 C:\projects\PosServer\PosServer.Implementation\obj\Debug\net8.0\PosServer.Implementation.pdb
 C:\projects\PosServer\PosServer.Implementation\obj\Debug\net8.0\ref\PosServer.Implementation.dll
+C:\projects\PosServer\PosServer.Implementation\obj\Debug\net8.0\PosServer.Implementation.sourcelink.json
+C:\projects\PosServer\PosServer.Implementation\bin\Debug\net8.0\ECR.dll

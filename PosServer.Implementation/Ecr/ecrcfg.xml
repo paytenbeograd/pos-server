@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Configuration>
+  <ProductKey>
+    <Prod_keyE>097C91EC9CEA0</Prod_keyE>
+    <Prod_keyW>06DDB28FE4EC0</Prod_keyW>
+  </ProductKey>
+  <COMport>
+	<Vendor>Castles</Vendor>
+	<VID>0CA6</VID>
+	<PID>A050</PID>
+    <Port_name>COM16</Port_name>
+    <Baud_rate>115200</Baud_rate>
+    <Data_bits>8</Data_bits>
+    <Stop_bits>1</Stop_bits>
+    <Parity>None</Parity>
+  </COMport>
+  <LAN>
+    <POS_IP_address>172.17.2.149:3000</POS_IP_address>
+  </LAN>
+  <TimeOut>
+    <Retry_timeout>1000</Retry_timeout>
+    <WaitForAckTimeout>5000</WaitForAckTimeout>
+    <Function_timeout>150000</Function_timeout>
+  </TimeOut>
+  <Log>
+    <Enable_logging>true</Enable_logging>
+    <Detailed_logging>true</Detailed_logging>
+  </Log>
+  <ProtocolV1>
+    <Send_RespMessage13>false</Send_RespMessage13>
+  </ProtocolV1>
+  <InputV2>
+    <Amount_currency>941</Amount_currency>
+  </InputV2>
+  <Encoding>
+    <Pos_Message_Encoding>ISO-8859-5</Pos_Message_Encoding>
+  </Encoding>
+</Configuration>

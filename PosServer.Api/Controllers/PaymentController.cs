@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PosServer.Domain.Entities;
 using PosServer.Implementation;
 using PosServer.Application.UseCases.Dto;
 using PosServer.Application.UseCases.Queries;
@@ -28,7 +27,7 @@ namespace PosServer.Controllers
         {
             Log.Information("Usao u pay endpoint");
 
-            var response = _useCaseHandler.HandleQueryAsync(query, request);
+            var response = await _useCaseHandler.HandleQueryAsync(query, request);
 
             Log.Information("Izlazim iz pay endpoint");
 

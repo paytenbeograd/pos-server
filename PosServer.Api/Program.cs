@@ -5,6 +5,7 @@ using Serilog;
 using PosServer.Implementation;
 using PosServer.Application.UseCases.Queries;
 using PosServer.Implementation.UseCases.Queries;
+using PosServer.Implementation.Ecr;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -32,6 +33,7 @@ builder.Services.AddTransient<UseCaseHandler>();
 builder.Services.AddTransient<IGetTerminalsQuery, EfGetTerminalsQuery>();
 builder.Services.AddTransient<IGetSettlementQuery, EfGetSettementQuery>();
 builder.Services.AddTransient<IGetPaymentResponseQuery, EfGetPaymentResponseQuery>();
+
 
 var app = builder.Build();
 

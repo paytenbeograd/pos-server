@@ -9,7 +9,8 @@
       "PosServer.Implementation/1.0.0": {
         "dependencies": {
           "PosServer.Application": "1.0.0",
-          "Serilog.AspNetCore": "8.0.3"
+          "Serilog.AspNetCore": "8.0.3",
+          "ECR": "3.13.1.2025"
         },
         "runtime": {
           "PosServer.Implementation.dll": {}
@@ -727,6 +728,14 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "ECR/3.13.1.2025": {
+        "runtime": {
+          "ECR.dll": {
+            "assemblyVersion": "3.13.1.2025",
+            "fileVersion": "3.13.1.2025"
+          }
+        }
       }
     }
   },
@@ -1231,6 +1240,11 @@
     },
     "PosServer.Domain/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ECR/3.13.1.2025": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
